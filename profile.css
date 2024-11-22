@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+            /* section1 container 스타일 지정 */
+            .container{
+                max-width: 1920px;
+                margin-left : 40px;
+                margin-right: 40px;
+                margin-top : 40px;
+                margin-bottom : 40px;
+                padding: 50px 50px;
+                font-family : pretendard;
+                border : 1px solid #cbd0d6;
+                border-radius : 32px;
+            }
+
+            .container h1{
+                color: #121212;
+                font-size: 24px;
+                margin : 0px 0px 8px 0px
+            }
+
+            .container p{
+                color : #A3AEB8;
+                font-size : 14px;
+                margin : 4px 0px 32px 0px;
+            }
+
+            
+
+            /* section2 img. 스타일 지정 */
+            img{
+                max-width : 600px;
+                margin : 0;
+                padding : none;
+                margin-bottom: 0px;
+                border-radius: 12px;
+            }
+            
+            
+            /* section 3 contact. 스타일 지정 */
+            .contact{
+                display : flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .contact p {
+                font-size : 20px;
+                font-weight: bold;
+                margin : 0px 0px 8px 0px;
+                color : #121212
+            }
+
+            .contact a{
+                display :inline-block;
+                text-align: center;
+                width: 80px;
+                font-size: 14px;
+                font-weight: medium;
+                margin-top: 8px;
+                color : #ffffff;
+                background-color: #121212;
+                padding : 8px;
+                border : none;
+                border-radius: 32px;
+                text-decoration: none;
+            
+            }
+
+            /* section 4 formContainer.  스타일 지정 */
+
+            .formContainer h2{
+                font-size : 20px;
+                font-weight: bold;
+                margin : px 0px 12px 0px;
+                color : #121212
+            }
+
+            .form label, form input{
+                display : block;
+                margin-bottom: 12px;
+            }
+
+
+            form input{
+                width: 200px;
+                padding : 8px;
+                background-color : #ffffff;
+                border : 2px solid #aebe8f;
+                border-radius : 8px;
+                margin-top : 8px;
+
+            }
+
+            form input:focus{
+                outline : 3px solid #80dc17 ;
+                outline-offset : -2px;
+                /* border :4px solid #80dc17; */
+            }
+
+
+            form button {
+                margin-top: 16px;
+                padding: 12px;
+                font-size: 16px;
+                color: white;
+                background-color: #4CAF50;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            form button:hover {
+                background-color: #204c20;
+            }
+
+
+
+            
+
+
+
+
