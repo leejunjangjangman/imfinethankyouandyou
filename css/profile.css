@@ -116,8 +116,14 @@
 
 
 
-            
+/*꾸밈과 일괄적용을 담당하는 스타일 시트의 기본구조를 적용하는것 */
+/* P(선택자_selector){
+color(스타일의종류_Property):green(값_Property value)} ;
+*/
 
-
-
-
+/* 가상선택자 찾아보기 */
+/* border : 2px(두께) solid(형태) Black(색상)*/
+/* 오 그러면 보더의 형태는 뭐가 더 있을깡 */
+/* border-box 최종 크기에 영향을 주지않음 개꿀  */
+/* backdrop-filter:blur(값px)*사파리제외하고 다보임  */
+/* overflow= figma(clipcotents) */
